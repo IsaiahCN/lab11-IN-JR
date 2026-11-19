@@ -1,4 +1,9 @@
+"""
+calculator.py
+- Defines functions used to create a simple calculator
 
+One function per operation, in order.
+"""
 def add(a, b):
     return a + b
 
@@ -27,7 +32,6 @@ def exp(a, b):
     return a ** b
 
 
-# Compatibility aliases if your partner's tests call these names:
 logarithm = log
 
 
